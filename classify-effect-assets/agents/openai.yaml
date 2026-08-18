@@ -1,0 +1,7 @@
+interface:
+  display_name: "分类特效素材"
+  short_description: "分类特效素材并处理加密和短文件名"
+  default_prompt: "Use $classify-effect-assets to prepare effect asset delivery folders with classification, encryption, and short file names."
+
+policy:
+  allow_implicit_invocation: true

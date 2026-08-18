@@ -1,0 +1,7 @@
+interface:
+  display_name: "分类美妆素材"
+  short_description: "按清单分类美妆素材包和缩略图"
+  default_prompt: "Use $classify-beauty-assets to classify beauty makeup assets from a source folder into categorized delivery folders."
+
+policy:
+  allow_implicit_invocation: true
