@@ -12,10 +12,10 @@ paths=()
 usage() {
   cat <<'USAGE'
 Usage:
-  process_effect_assets.sh --effect VALUE --decrypt-first always|never [--shorten-names always|never] [--need-dir /mnt/d/need] [--git-bash PATH] [--execute] -- DIR...
+  encrypt_asset_dirs.sh --effect VALUE --decrypt-first always|never [--shorten-names always|never] [--need-dir /mnt/d/need] [--git-bash PATH] [--execute] -- DIR...
 
-The script only processes the asset directories passed after --. It does not search source
-asset libraries or classify files. Without --execute, it reports counts and planned operations.
+The script only processes the categorized asset directories passed after --. It does not search
+source asset libraries or classify files. Without --execute, it reports counts and planned operations.
 USAGE
 }
 
